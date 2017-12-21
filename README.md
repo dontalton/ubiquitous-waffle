@@ -4,6 +4,7 @@ To use:
 On AWS, launch an Ubuntu 16.04 image, I used t2.medium.  
 sudo to root  
 clone this repo  
+either add s3 credentials to host/in_docker.sh, or comment out the out_s3 store block  
 ./setup.sh  
 Wait  
   
