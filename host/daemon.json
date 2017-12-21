@@ -1,0 +1,6 @@
+{
+  "log-driver": "fluentd",
+  "log-opts": {
+    "tag": "docker.{{.ID}}"
+  }
+}
