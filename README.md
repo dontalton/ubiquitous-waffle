@@ -2,7 +2,7 @@ Quick and dirty fluentd setup for docker hosts.
   
 To use:  
 On AWS, launch an Ubuntu 16.04 image, I used t2.medium.  
-sudo to root
+sudo to root  
 clone this repo  
 ./setup.sh  
 Wait  
