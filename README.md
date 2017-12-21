@@ -10,7 +10,7 @@ Wait
   
 That's it.  
   
-Docker's logging is configured to use fluentd. Fluentd allows us to get away from managing conventional logs, and rather lets us handle log data as streams. App server containers should log directly to stdout and stderr. Fluentd captures the data and places it into mongodb for later analysis. Logs are also stored locally, in /var/log/fluentd/archive, and remotely in a s3 bucket of your choosing. The appserver is running a simple Flask app that returns 'Hello World'.  
+Docker's logging is configured to use fluentd. App server containers should log directly to stdout and stderr. Fluentd captures the data and places it into mongodb for later analysis. Logs are also stored locally, in /var/log/fluentd/archive, and remotely in a s3 bucket of your choosing. The appserver is running a simple Flask app that returns 'Hello World'.  
   
 To verify messages are getting into mongo:  
 mongo  
