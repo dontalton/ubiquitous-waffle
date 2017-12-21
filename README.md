@@ -4,7 +4,6 @@ To use:
 On AWS, launch an Ubuntu 16.04 image, I used t2.medium.  
 login  
 clone this repo  
-cd vgs  
 ./setup.sh  
 Wait  
   
